@@ -1,0 +1,5 @@
+enum Routes {
+  splash,
+  login,
+  
+}

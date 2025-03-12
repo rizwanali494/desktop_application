@@ -1,6 +1,5 @@
 import 'package:desktop_application/core/features/views/auth/login_view.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SignUpView extends StatefulWidget {
   const SignUpView({super.key});

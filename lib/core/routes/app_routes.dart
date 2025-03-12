@@ -1,4 +1,5 @@
-import 'package:desktop_application/core/features/views/login_view.dart';
+import 'package:desktop_application/core/features/views/auth/login_view.dart';
+import 'package:desktop_application/core/features/views/auth/sign_up.dart';
 import 'package:desktop_application/core/features/views/splash_view.dart';
 import 'package:desktop_application/core/routes/routes.dart';
 import 'package:go_router/go_router.dart';
@@ -19,6 +20,11 @@ class AppRouter {
         path: '/login',
         name: Routes.login.name,
         builder: (context, state) => const LoginView(),
+      ),
+       GoRoute(
+        path: '/signup',
+        name: Routes.signup.name,
+        builder: (context, state) => const SignUpView(),
       ),
       // GoRoute(
       //     path: '/message1',
